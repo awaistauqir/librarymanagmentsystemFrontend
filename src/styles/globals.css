@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 2.25rem;
+}
+.form-control {
+  @apply flex flex-col space-y-2 w-full z-0;
+}
